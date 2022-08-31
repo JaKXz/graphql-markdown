@@ -60,10 +60,7 @@
     "test:unit": "jest --projects tests/unit",
     "test:integration": "jest --projects tests/integration",
     "test:smoke": "earthly +smoke-test",
-    "test:coverage": "sh ./scripts/coverage.sh",
-    "postinstall": "husky install",
-    "prepack": "pinst --disable",
-    "postpack": "pinst --enable"
+    "test:coverage": "sh ./scripts/coverage.sh"
   },
   "dependencies": {
     "@graphql-inspector/core": "^3.3.0",
